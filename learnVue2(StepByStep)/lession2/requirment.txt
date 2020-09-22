@@ -1,0 +1,6 @@
+add in chrome Vue extension here: https://github.com/vuejs/vue-devtools
+in the inspact of chrome go to console 
+$vm0.message
+>>the message you input
+$vm0.message= "I have been change"
+>>I have been change
