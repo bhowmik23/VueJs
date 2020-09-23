@@ -1,5 +1,5 @@
 # Vue-Js-Practice
-I am learning Vue js.Here is my Practice code Repo.
+I am learning Vue.js. Here is my Practice code Repo.
 ## Course Details:
 #### Course Name: Learn Vue 2: Step By Step
 #####  Course Teacher: *Jeffrey Way* 
