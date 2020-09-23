@@ -8,7 +8,18 @@ Vue.component('message', {
         };
     },
 
-    template: '<article class="message" v-show = "isVisible" ><div class="message-header">{{ title }}<button @click="hideModal" class="delete" aria-label="delete"></button></div><div class="message-body">{{ body}}</div></article>',
+    template: `
+        <article class="message" v-show = "isVisible" >
+            <div class="message-header">
+                {{ title }}
+                <button @click="hideModal" class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+                </div>
+                    {{ body}}
+                </div>
+            </div>
+        </article>`,
 
     methods: {
         hideModal() {
